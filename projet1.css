@@ -1,0 +1,123 @@
+body{
+    background-color: snow;
+}
+.logo{
+    text-align: left;
+}
+.logo img{
+width: 80px;
+min-height: 60px;
+border-radius: 50px;
+}
+.a{
+    text-align: center;
+}
+.a{
+    margin: -50px;
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+.a input{
+    border-radius: 50px;
+    background:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.a a{
+    color: black;
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    background:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 60px;
+    border-radius: 50px;
+}
+.ap{
+    position: absolute;
+ right: 7px;
+ top: -12px;
+}
+.ap img{
+   border-radius: 50px;
+    width: 80px;
+    height: 60px;
+}
+.home img{
+    border: double 5px black;
+   border-radius: 50px;
+}
+.home .ah{
+    text-align: center;
+}
+.home .ah a{
+    text-decoration: none;
+    color:white;
+    border: solid black 2px;
+    background-color: black;
+border-radius: 20% 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.home .ah a{
+   position: relative;
+   top: -300px;
+}
+.dr img{
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.mu{
+    text-align: center;
+    margin-top: -330px;
+}
+.mu img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.go{
+    text-align: right;
+    margin-top: -330px;
+}
+.go img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: black;
+ 
+    }
+    .dr{
+        text-align: center;
+    }
+    .dr img{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+    .mu{
+        text-align: center;
+        padding-top: 330px;
+    }
+    .mu img{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+    .go{
+        text-align: center;
+        padding-top: 330px;
+    }
+    .go img{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+    }
+}
+
+  
