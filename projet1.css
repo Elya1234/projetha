@@ -118,6 +118,21 @@ border-radius: 20% 50%;
         height: 500px;
         border-radius: 50%;
     }
+    .a{
+        margin: -80px;
+        letter-spacing: 10px;
+        font-size: 20px;
+        font-weight: bold;
+      
+    }
+    .a input{
+        position: absolute;
+        left: 30%;
+        top: 5%;
+    }
+    .home img{
+        width: 140%;
+    }
 }
 
   
